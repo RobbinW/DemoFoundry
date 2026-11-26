@@ -1,0 +1,6 @@
+The Marvin M6S arm geometry and calibration come from the project workcell.
+The gripper adaptation uses CAD from KLMmotion/marvin_pro_robotwin,
+assets/embodiments/tianji at revision 1e30f003984ddb82d2994474b015f0933c131d94.
+See LICENSE-gripper for the upstream notice. The tray and block dimensions
+were fitted to the recorded tabletop. The repository's code license applies
+to the example implementation.

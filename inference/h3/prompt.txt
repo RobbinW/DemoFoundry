@@ -1,0 +1,19 @@
+subject_definitions:
+<Video 1> is a simplified simulation rendering of the robot and task geometry, from the same camera as the target video.
+<Image 1> is the appearance reference image for the first frame of [Shot 1].
+
+summary:
+[keyframe completion + reference generation] The target video begins from <Image 1> and follows the frame-by-frame structure and motion of <Video 1>. A photographic recording of a robot manipulation scene, matching the supplied first frame and following the supplied structure sequence.
+
+retention_analysis:
+<Video 1> (frame-by-frame layout, shapes, character poses and motion, camera): attribute_transfer - the layout, shapes, poses, motion and camera are followed exactly; materials, colours and lighting are not given by <Video 1> and are the target video's own; the simplified simulation materials and plain background of <Video 1> is not shown.
+<Image 1> ([Shot 1] first frame): fully_preserved - the composition, subjects, materials, colours and lighting of <Image 1> are the target video's first frame.
+
+detailed_description:
+[Shot 1] The shot begins from <Image 1>. The target is a continuous photographic recording of the robot workspace shown in the first frame. Preserve the robot's visible identity, link shapes, gripper, table surface, task objects, room background, materials, colours and lighting. Follow only the poses, motion, occlusion and object trajectories visible in the structure sequence in playback order. Keep the camera viewpoint and any camera motion consistent with that sequence. Maintain the actual photographic background throughout the clip. Preserve object count and connected robot geometry. Do not introduce a new action or an unseen object. Keep textures and illumination stable as the robot moves.
+
+overall_soundscape:
+N/A
+
+non_diegetic_music:
+N/A

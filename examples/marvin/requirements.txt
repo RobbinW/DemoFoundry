@@ -1,0 +1,15 @@
+# Linux x86_64, CPython 3.10. The native DexSim wheel is distributed by DexForce.
+dexsim-engine @ http://pyp.open3dv.site:2345/packages/dexsim_engine-0.5.1rc1-cp310-cp310-manylinux_2_31_x86_64.whl#sha256=e2e3b6fdf0221f29c48c98d7ff89ce90a49ce062e48248b164716bb7f12f903a
+embodichain==0.3.2
+torch==2.7.0
+torchvision==0.22.0
+torchcodec==0.5
+tensordict==0.12.4
+numpy==2.2.6
+scipy==1.15.2
+trimesh==4.11.1
+shapely==2.1.2
+opencv-python==4.13.0.92
+opencv-python-headless==4.11.0.86
+pin==3.8.0
+pin-pink==4.0.0

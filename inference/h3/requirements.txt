@@ -1,0 +1,13 @@
+diffusers @ git+https://github.com/huggingface/diffusers.git@90b4e34e79a86ec5e7f2437634fe95ecd2108796
+accelerate==1.14.0
+transformers==5.12.1
+safetensors==0.8.0
+av==15.1.0
+numpy==2.2.6
+Pillow==9.5.0
+librosa==0.11.0
+soundfile==0.14.0
+einops==0.8.2
+sentencepiece==0.2.2
+ftfy
+protobuf
